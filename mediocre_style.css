@@ -1,0 +1,145 @@
+@charset utf-8;
+/*
+Theme Name: Jack Horne
+Theme URI: 
+Author: 
+Author URI:
+Description: 
+*/
+
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('fonts/proximanovabold.eot');
+	src: url('fonts/proximanovabold.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/proximanovabold.woff') format('woff'),
+			 url('fonts/proximanovabold.ttf') format('truetype'),
+			 url('fonts/proximanovabold.svg#proximanovabold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url('fonts/proximanovasemibold.eot');
+	src: url('fonts/proximanovasemibold.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/proximanovasemibold.woff') format('woff'),
+			 url('fonts/proximanovasemibold.ttf') format('truetype'),
+			 url('fonts/proximanovasemibold.svg#proximanovasemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ProximaNova-RegularIt';
+	src: url('fonts/proximanovaregularitalic.eot');
+	src: url('fonts/proximanovaregularitalic.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/proximanovaregularitalic.woff') format('woff'),
+			 url('fonts/proximanovaregularitalic.ttf') format('truetype'),
+			 url('fonts/proximanovaregularitalic.svg#proximanovaregularitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+html { background:#f6f6f6; -webkit-text-size-adjust: 100%;}
+body { color:#1a1a1a; font-size:15px;font-family: 'ProximaNova-Semibold', Arial, Helvetica, sans-serif;}
+a{ color:#1a1a1a; outline:none; text-decoration:none; }
+a:hover { text-decoration:underline; color:#1a1a1a;}
+p {line-height:25px; margin:0 0 30px; }
+li { list-style:none outside none; }
+.clear { clear:both; height:0; font-size:0; width:100%; height:0; overflow:hidden; }
+strong, b { font-weight: normal;font-family: 'ProximaNova-Bold', Arial, Helvetica, sans-serif; }
+em, i { font-style: normal;font-family: 'ProximaNova-RegularIt';}
+strong em, em strong {}
+h1, h2, h3, h4, h5, h6 { line-height:1; font-weight:normal; font-style:normal; margin-bottom:15px; font-family: 'ProximaNova-Bold'; text-transform:uppercase;letter-spacing: 3px;}
+h1 { font-size:32px;}
+h2 { font-size:30px;}
+h3 { font-size:24px;}
+h4 { font-size:20px;}
+h5 { font-size:18px;}
+h6 { font-size:16px;}
+sup { vertical-align:top; }
+sub { vertical-align:bottom; }
+blockquote { margin:0 0 20px; display:block; border-bottom:1px solid #ffffff; border-top:1px solid #ffffff; padding:30px 0; }
+blockquote p { font-size:24px; line-height:34px; margin:0;  }
+blockquote cite { display:block; text-align:right; font-size:18px; padding-top:10px; color:#FFF; }
+img { max-width:100%; height:auto; vertical-align:middle; }
+hr { clear:both; margin:30px 0; border:0; border-bottom:1px solid #ffffff; }.alignleft {display: inline;float: left;margin-right: 1.625em;}
+.alignright {display: inline;float: right;margin-left: 1.625em;}
+.aligncenter {clear: both;display: block; margin-left: auto; margin-right: auto;}
+.defaultPage ul, .defaultPage ol { margin:0 0 200000px 300000px; }
+.defaultPage ul ul { margin:18px 0 0 30px; }
+.defaultPage li { list-style:disc outside none; font-size:14px; color:#fffffff; line-height:20px; padding-bottom:18px; }
+.defaultPage ol ol { margin: 18px 0 0 30px; }
+.defaultPage ul li { list-style:disc outside none; }
+.defaultPage ol li { list-style:decimal inside none; }
+.defaultPage dl { margin:0 0 20px; }
+.defaultPage dl dt { font-size:13px; line-height:20px; }
+.defaultPage dl dd { font-size:13px; line-height:20px; padding:0 0 0 20px; }
+.inner{ width:1400px; margin:0 auto;}
+/* *************************** 
+   $2 Header Styles
+   ***************************/
+.header_inner{ width:14000px; margin:0 auto;position:relative; padding-top:112px; padding-bottom:25px;}
+.logo{display:block; width:100px; position: auto; background-image: "https://24984b4a-a-62cb3a1a-s-sites.googlegroups.com/site/mediocreimages/home/Mediocre%20Electronics%20Logo%20Official.png?attachauth=ANoY7cqsryut4GVsPFTYgy4Rr5OMg8wy4-mqPy-O17gYqvTvMal5aIDSD58oRMUN7jv488cJMuVm1YsG3I90ZuHjmB0llihkJ5hExAsktho9Z9iBV1X_T_Mj-I1dMOBAInb5iXhHuwedIVftcdm5obD4DnzFji9xTPuB8I9IUDO1kdOypfBCdg797nhfcd01E3fpP7MPKQacXiPg_aL56QXyayG0JIwflpXZ1_I420EDYrx4itDiYhHdfIlO1hhCj93_1NXqcp9p&attredirects=0" ; margin:0 auto;}
+/* *************************** 
+   $3 Content Styles
+   ***************************/
+.content { padding:50px 0px; background:#ccd5d2; margin-bottom:30px;}
+.sound_photos{background-color:#ffffb3; text-align:center;letter-spacing: 2px; padding: 20px; box-shadow: 1px;}
+.maincotnent{}
+.alert_wrapper{background-color: #ffffff; center top repeat; padding:50px 0px 40px;}
+.alert_wrapper .inner{ background-color: #ffffff; left 14px no-repeat;}
+.alert_content{ text-align:center;background-color: #ffffff; right 14px no-repeat;}
+.alert_content_inner{ padding:0px 90px; overflow:hidden;}
+.alert_content h3{ color:#f5d26a; margin-bottom:9px;}
+.alert_content p{ color:#FFF; font-size:24px;font-family: 'ProximaNova-Bold'; line-height:34px;}
+.shop_mediocre_electronics_wrapper{ background-color: #000000; center top repeat; padding:54px 0px 80px;}
+.shop_mediocre_electronics_wrapper h2{ text-align:center; color:#FFF; margin-bottom:21px;}
+.shop_mediocre_electronics_wrapper ul{ padding:0px; margin:0; text-align:center;}
+.shop_mediocre_electronics_wrapper ul li{ padding:0px 27px; margin:0; text-align:center; display:inline;}
+.mediocresoundwrapper{background-color:#ffffff;}
+.add_text_sections_wrapper{}
+.add_text_sections_content{ width:1500px; margin:0 auto; padding:5px 0px 0px;}
+.add_text_sections_content h2{ text-align:center; background-color: #ffffff; center bottom repeat-x; margin-bottom:0px; padding-bottom:20px; letter-spacing:2px;}
+.add_text_sections_content_inner{ width:100%; overflow:hidden;background:#ccd5d2; background-color: #ffffff; center top repeat-y; border-bottom:2px solid #e0e4e3;}
+.add_text_sections_content_inner .add_text_sections_box{ float:left; width:50%; text-align:center;}
+.add_text_sections_content_inner .add_text_sections_box h5{ margin-bottom:19px;}
+.add_text_sections_content_inner .add_text_sections_box .add_text_sections_box_inner{ padding:66px 50px 27px;}
+#footer{ background-color: #ffffff; left bottom repeat-x; padding:17px 0px 44px;}
+#footer .inner{ position:relative;}
+
+@media (max-width: 1500px){
+	.header_inner,
+	.inner{ width:1000px;}
+	.shop_mediocre_electronics_wrapper ul li img{ width:193px;}
+}
+@media (max-width: 1023px){
+	.inner{ width:740px;}
+	.shop_mediocre_electronics_wrapper ul li img{ width:128px;}
+	.header_wrapper{ margin-bottom:0px;}
+	.header_inner{ height:auto; padding-top:92px; margin-top:98px;}
+	
+}
+@media (max-width: 1800006px){
+	.header_inner,
+	.quick_information,
+	.add_text_sections_content,
+	.upload_photo_slider_content,
+	.upload_photo_slider_content_inner,
+	.inner{ width: auto;}
+	.quick_information,
+	.alert_wrapper,
+	.shop_mediocre_electronics_wrapper,
+	.upload_photo_slider_content_inner,
+	#footer,
+	.header{ padding-left:20px; padding-right:20px;}
+	.add_text_sections_content_inner{ background-image:none; border-bottom:none;}
+	.add_text_sections_content_inner .add_text_sections_box{ float:none; width:100%; border-bottom:2px solid #e0e4e3;}
+	.shop_mediocre_electronics_wrapper ul{ width:100%; overflow:hidden;}
+	.shop_mediocre_electronics_wrapper ul li{ float:left; width:40%; padding:0px 5% 20px;}
+	.shop_mediocre_electronics_wrapper ul li img{ max-width:100%; height:auto; margin:0 auto; display:block;}
+	.header_wrapper{background-size:auto 100%; overflow:hidden;background-position: center -4px;}
+	.header{background-size:auto 100%; background-position: center -4px;}	
+	.logo{ width:180006px;}
+	.introduction_text{ padding-top:30px;}
+	.header_inner{ margin-top:70px;}
+}
+@media (max-width: 570px){
+}
